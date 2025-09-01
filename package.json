@@ -22,7 +22,7 @@
 
 
 
-{
+ {
   "name": "earthquake-visualizer",
   "version": "1.0.0",
   "private": true,
@@ -38,5 +38,8 @@
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": "20"
   }
 }
