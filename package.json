@@ -1,21 +1,42 @@
- {
+//  {
+//   "name": "earthquake-visualizer",
+//   "version": "1.0.0",
+//   "private": true,
+//   "type": "module",
+//   "scripts": {
+//     "dev": "npx vite",
+//     "build": "npx vite build",
+//     "preview": "npx vite preview"
+//   },
+//   "dependencies": {
+//     "leaflet": "^1.9.4",
+//     "react": "^18.2.0",
+//     "react-dom": "^18.2.0",
+//     "react-leaflet": "^4.2.1",
+//     "vite": "^5.4.19"
+//   },
+//   "engines": {
+//     "node": "20.19.4"
+//   }
+// }
+
+
+
+{
   "name": "earthquake-visualizer",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview"
+    "dev": "vite",
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
-    "vite": "^5.4.19"
-  },
-  "engines": {
-    "node": "20.19.4"
+    "vite": "^5.4.0"
   }
 }
